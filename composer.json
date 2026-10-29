@@ -1,0 +1,14 @@
+{
+    "name": "joan/hubspot-api-implement",
+    "description": "Validación de NIF/CIF/VAT de HubSpot contra VIES",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^8.3",
+        "vlucas/phpdotenv": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vexco\\": "src/"
+        }
+    }
+}
