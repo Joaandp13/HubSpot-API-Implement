@@ -17,13 +17,7 @@ Prueba técnica del proceso de selección de Vexco. Autor: Joan.
 composer install
 ```
 
-Copia la plantilla del .env y añade tu token:
-
-```bash
-copy .env.template .env
-```
-
-Edita `.env`:
+Crea un archivo .env en la raiz con el token y la url de la api
 
 ```env
 HUBSPOT_TOKEN=[service_key]
